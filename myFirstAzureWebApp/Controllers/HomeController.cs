@@ -15,14 +15,14 @@ namespace myFirstAzureWebApp.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "New About";
+            ViewBag.Message = "About";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "New Contact";
+            ViewBag.Message = "Contact";
 
             return View();
         }
